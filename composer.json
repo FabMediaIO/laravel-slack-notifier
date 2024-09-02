@@ -1,0 +1,35 @@
+{
+    "name": "fabmedia/laravel-slack-notifier",
+    "description": "Slack Notifier is used to send messages in specific slack channel using slack webhook url.",
+    "keywords": [
+        "Laravel",
+        "Notification",
+        "Notifier",
+        "Slack"
+    ],
+    "homepage": "https://github.com/FabMediaIO/laravel-slack-notifier",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fabmedia\\SlackNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hassankhan-wise",
+            "email": "hassankhan.infinitewise@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fabmedia\\SlackNotifier\\SlackNotifierServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
