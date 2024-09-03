@@ -13,7 +13,7 @@ SLACK_HOOK_URL="https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXX
 You can install the package via composer:
 
 ```bash
-composer require fabmedia/laravel-slack-notifier @dev
+composer require "fabmedia/laravel-slack-notifier @dev"
 ```
 
 ## Usage
