@@ -24,7 +24,7 @@ You can send message by using the `sendNotification` method.
 use Fabmedia\SlackNotifier\SlackNotifier;
 
 $slackNotifier = new SlackNotifier();
- $slackNotifier->sendNotification('This is a test message');
+$slackNotifier->sendNotification('This is a test message');
 ```
 
 Alternatively, you could also send block message by using the `sendNotificationBlock` method.
@@ -74,4 +74,4 @@ $slackNotifier->sendNotificationBlock($block);
 
 ## License
 
-The MIT License (MIT). Please see (LICENSE.md) for more information.
+The MIT License (MIT). Please see (LICENSE) for more information.
