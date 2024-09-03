@@ -74,4 +74,4 @@ $slackNotifier->sendNotificationBlock($block);
 
 ## License
 
-The MIT License (MIT). Please see (LICENSE) for more information.
+The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
